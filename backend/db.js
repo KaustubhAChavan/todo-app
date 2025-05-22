@@ -1,5 +1,11 @@
 const { Client } = require('pg');
-
+/*
+CREATE TABLE todos (
+  id SERIAL ,
+  title VARCHAR(255),
+  description VARCHAR(255)
+);
+*/
 const client = new Client({
   user: 'mydotoapp_owner',
   host: 'ep-broad-block-a5zgvz8w-pooler.us-east-2.aws.neon.tech',
