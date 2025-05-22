@@ -19,7 +19,7 @@ app.get('/todo',async (req,res)=> {
         res.status(500).json({
             error: "Internal server error"
         })
-    }
+    } 
 })
 
 app.post('/todo', async (req,res) => {
